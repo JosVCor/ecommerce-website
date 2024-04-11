@@ -1,0 +1,264 @@
+.mens-womens-content{
+    background-image: url("/src/Pages/Home/assets/mw-c.jpg");
+    background-size: cover;
+    height: 55vh;
+    margin: 5% 5% 5% 5%;
+    border: black 10px solid;
+    box-shadow: darkred 0px 0px 20px 5px;
+}
+
+.m-w-t{
+    text-align: center;
+    padding: 10% 5% 5% 5%;
+}
+
+.m-w-buttons{
+    padding: 1%;
+}
+
+.m-b{
+    text-decoration: none;
+    color: black;
+    margin-left: 40%;
+    background-color: rgba(25, 125, 125, 0.25);
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.m-b:hover{
+    background-color: rgba(25, 125, 125, 0.75);
+}
+
+.w-b{
+    text-decoration: none;
+    color: black;
+    margin-left: 5%;
+    background-color: rgba(25, 125, 125, 0.25);
+    border-radius: 10px;
+    padding: 10px 15px;}
+
+.w-b:hover{
+    background-color: rgba(25, 125, 125, 0.75);
+}
+
+.main-image{
+    display: flex;
+    justify-content: center;
+    margin: 0 5% 5% 5%;
+    padding: 100px;
+    border: black 10px solid;
+}
+
+.shoe-content {
+    height: 45vh;
+    margin: 0 5% 0 5%;
+    display: flex;
+}
+
+
+.shoe-t{
+    background-image: url("/src/Pages/Home/assets/w-shoee1.jpg");
+    background-size: 100%;
+    width: 50%;
+    transition: background-size .5s ease;
+    border: darkred 10px ridge;
+}
+
+.shoe-t:hover{
+    background-size: 25%;
+}
+
+.shoe-t:hover::before {
+    content: "Shop Womens Shoes"; /* Add the text content */
+    position: absolute;
+    top: 124%; /* Adjust top position as needed */
+    left: 27%; /* Adjust left position as needed */
+    transform: translate(-50%, -50%);
+    color: white; /* Adjust text color as needed */
+    text-shadow: darkred 1px 1px 15px; /* Adjust text shadow as needed */
+    font-size: 35px; /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+}
+
+.shoe-t1{
+    background-image: url("/src/Pages/Home/assets/men-shoes.jpeg");
+    background-size: 100%;
+    text-align: center;
+    width: 50%;
+    transition: background-size .5s ease;
+    border: darkred 10px groove;
+
+}
+
+.shoe-t1:hover{
+    background-size: 25%;
+}
+
+.shoe-t1:hover::before {
+    content: "Shop Mens Shoes"; /* Add the text content */
+    position: absolute;
+    top: 124%; /* Adjust top position as needed */
+    left: 73%; /* Adjust left position as needed */
+    transform: translate(-50%, -50%);
+    color: white; /* Adjust text color as needed */
+    text-shadow: darkred 1px 1px 15px; /* Adjust text shadow as needed */
+    font-size: 35px; /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+}
+
+
+.accessories-content{
+    display: flex;
+    justify-content: center;
+    margin: 0 5% 5% 5%;
+}
+
+.jewelry{
+    background-image: url("/src/Pages/Home/assets/jewelry.webp");
+    background-size: cover;
+    height: 20vh;
+    box-shadow: black 1px 1px 1px 1px;
+    margin: 5% 2% 5% 5%;
+    width: 12%;
+    border-radius: 100%;
+}
+
+.jewelry:hover{
+    box-shadow: darkred 1px 1px 10px 5px;
+}
+
+.hats{
+    background-image: url("/src/Pages/Home/assets/running-hats-lede.jpg");
+    background-size: cover;
+    height: 20vh;
+    box-shadow: black 1px 1px 1px 1px;
+    margin: 5% 2% 5% 0;
+    width: 12%;
+    border-radius: 100%;
+}
+
+.hats:hover{
+    box-shadow: darkred 1px 1px 10px 5px;
+}
+
+.sunglasses{
+    background-image: url("/src/Pages/Home/assets/sunglasses.jpg");
+    background-size: cover;
+    height: 20vh;
+    box-shadow: black 1px 1px 1px 1px;
+    margin: 5% 2% 5% 0;
+    width: 12%;
+    border-radius: 100%;
+}
+
+.sunglasses:hover{
+    box-shadow: darkred 1px 1px 10px 5px;
+}
+
+.belts{
+    background-image: url("/src/Pages/Home/assets/best-golf-belts-2023.webp");
+    background-size: cover;
+    height: 20vh;
+    box-shadow: black 1px 1px 1px 1px;
+    margin: 5% 2% 5% 0;
+    width: 12%;
+    border-radius: 100%;
+}
+
+.belts:hover{
+    box-shadow: darkred 1px 1px 10px 5px;
+}
+
+.bags{
+    background-image: url("/src/Pages/Home/assets/maydropscollage.webp");
+    background-size: cover;
+    height: 20vh;
+    box-shadow: black 1px 1px 1px 1px;
+    margin: 5% 2% 5% 0;
+    width: 12%;
+    border-radius: 100%;
+}
+
+.bags:hover{
+    box-shadow: darkred 1px 1px 10px 5px;
+}
+
+.wallets{
+    background-image: url("/src/Pages/Home/assets/PLP_Hero_Mobile_Wallets.avif");
+    background-size: cover;
+    height: 20vh;
+    box-shadow: black 1px 1px 1px 1px;
+    margin: 5% 2% 5% 0;
+    width: 12%;
+    border-radius: 100%;
+}
+
+.wallets:hover{
+    box-shadow: darkred 1px 1px 10px 5px;
+}
+
+.scents{
+    background-image: url("/src/Pages/Home/assets/best-perfumes-for-women-2022-ft.jpg");
+    background-size: cover;
+    height: 20vh;
+    box-shadow: black 1px 1px 1px 1px;
+    margin: 5% 2% 5% 0;
+    width: 12%;
+    border-radius: 100%;
+}
+
+.scents:hover{
+    box-shadow: darkred 1px 1px 10px 5px;
+}
+
+.swimsuit-content{
+    height: 55vh;
+    margin: 0 5% 5% 5%;
+    display: flex;
+}
+
+.curved-text{
+    font-size: x-large;
+    font-weight: bold;
+    margin-right: 55%;
+    margin-top: 2%;
+    transform: rotate(-25deg);
+    text-decoration: none;
+    color: black;
+}
+
+.swimsuit-m{
+    background-image: url("/src/Pages/Home/assets/men_swimsuit.jfif");
+    background-size: 100%;
+    border-top-left-radius: 50%;
+    width: 50%;
+    transition: background-size .5s ease;
+}
+
+.swimsuit-m:hover{
+    background-size: 10%;
+}
+
+
+
+.curved-text1{
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 57%;
+    margin-top: 2%;
+    transform: rotate(25deg);
+    text-decoration: none;
+    color: black;
+}
+
+.swimsuit-w {
+    background-image: url("/src/Pages/Home/assets/women_s.jpg");
+    background-size: 75%;
+    border-top-right-radius: 50%;
+    width: 50%;
+    transition: background-size .5s ease;
+}
+
+.swimsuit-w:hover {
+    background-size: 10%;
+}

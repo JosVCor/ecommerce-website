@@ -1,0 +1,39 @@
+.form-title{
+    text-align: center;
+}
+
+.product-form{
+    display: flex;
+}
+
+.product-form1{
+    flex-direction: column;
+    margin: 5% 5% 10% 39%;
+    width: 10%;
+}
+
+.product-form2{
+    flex-direction: column;
+    margin: 5% 0 0 0;
+    width: 10%;
+}
+
+.product-name{
+    margin-top: 5%;
+}
+
+.form-button{
+    margin-left: 48%;
+}
+
+.form-error{
+    color: red;
+    font-size: 12px;
+    text-align: center;
+}
+
+.product-color{
+    margin-top: 5%;
+    margin-right: 10%;
+}
+

@@ -1,0 +1,249 @@
+.container-men{
+    width: 75%;
+    margin-left: 13%;
+    margin-top: 5%;
+}
+
+.container-men > h1 {
+    font-size: 2.5rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    text-shadow: darkred 3px 3px 5px;
+}
+
+.mens-background-image-container {
+    position: relative;
+    display: flex;
+}
+
+.men-background-image-1,
+.men-background-image-2,
+.men-background-image-3 {
+    position: relative;
+    height: 55vh;
+    width: 100%;
+    border: darkred 10px groove;
+}
+
+.men-background-image-1 {
+    background-image: url('/src/Pages/Mens/assets/denim-1.jpg');
+    clip-path: polygon(0 0, 49% 100%, 0 100%);
+    background-size: 45%;
+}
+
+.men-background-image-2 {
+    background-image: url('/src/Pages/Mens/assets/formal-m-1.jpg');
+    clip-path: polygon(0 0, 49% 100%, 100% 0);
+    background-size: 55%;
+    background-position-x: 55%;
+    margin-right: -95%;
+    margin-left: -95%;
+}
+
+.men-background-image-3 {
+    background-image: url('/src/Pages/Mens/assets/sports-m-1.jpg');
+    clip-path: polygon(100% 100%, 49% 100%, 100% 0);
+    background-size: 58%;
+}
+
+
+
+.mens-accessories-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 20vh;
+}
+
+.mens-accessories-content{
+    display: flex;
+    width: 100%;
+    margin: 1%;
+}
+
+.Men-Tops {
+    background-image: url("/src/Pages/Mens/assets/mens-tops.webp");
+    background-size: cover;
+    background-position: center;
+    width: 12%;
+    height: 100%;
+    margin-left: 4%;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: 5s;
+}
+
+.Men-Tops:hover{
+    box-shadow: darkred 1px 1px 10px 5px;
+    transition: 1s;
+}
+
+.Men-Shorts {
+    background-image: url("/src/Pages/Mens/assets/mens-shorts.jfif");
+    background-size: cover;
+    background-position: center;
+    width: 12%;
+    height: 100%;
+    margin-left: 4%;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: 5s;
+}
+
+.Men-Shorts:hover{
+    box-shadow: darkred 1px 1px 10px 5px;
+    transition: 1s;
+}
+
+.Men-Pants {
+    background-image: url("/src/Pages/Mens/assets/mens-pants.webp");
+    background-size: cover;
+    background-position: center;
+    width: 12%;
+    height: 100%;
+    margin-left: 4%;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: 5s;
+}
+
+.Men-Pants:hover{
+    box-shadow: darkred 1px 1px 10px 5px;
+    transition: 1s;
+}
+
+
+.Men-Shoes {
+    background-image: url("/src/Pages/Mens/assets/mens-shoes.webp");
+    background-size: cover;
+    background-position: center;
+    width: 12%;
+    height: 100%;
+    margin-left: 4%;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: 5s;
+}
+
+.Men-Shoes:hover{
+    box-shadow: darkred 1px 1px 10px 5px;
+    transition: 1s;
+}
+
+.Men-Accessories {
+    background-image: url("/src/Pages/Mens/assets/mens-accessories.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 12%;
+    height: 100%;
+    margin-left: 4%;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: 5s;
+}
+
+.Men-Accessories:hover{
+    box-shadow: darkred 1px 1px 10px 5px;
+    transition: 1s;
+}
+
+.Men-Swimsuits {
+    background-image: url("/src/Pages/Mens/assets/mens-swimsuits.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 12%;
+    height: 100%;
+    margin-left: 4%;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: 5s;
+}
+
+.Men-Swimsuits:hover {
+    box-shadow: darkred 1px 1px 10px 5px;
+    transition: 1s;
+}
+
+.mens-accessories-text{
+    text-align: center;
+    margin-top: 115%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: darkred 1px 1px 5px;
+    transition: 3s;
+}
+
+.mens-accessories-text:hover{
+    color: black;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.sales-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    border: darkred 175px ridge;
+    height: 35vh;
+    transition: 2.5s;
+    background-image: url("/src/Pages/Mens/assets/sale-men.jpg");
+    background-size: contain;
+
+
+}
+
+.sales-container:hover{
+    border: darkred 17px groove;
+    transition: 2.5s;
+    background-image: url("/src/Pages/Mens/assets/sale-men.jpg");
+    background-size: contain;
+}
+
+.sales-content {
+    border: black 25px groove;
+    display: flex;
+    flex: 1;
+    width: 100%;
+    transition: 5s;
+}
+
+
+
+/*.col-container{*/
+/*    display: inline-flex;*/
+/*}*/
+
+.test {
+    display: inline-flex;
+    margin-top: 10%;
+}
+
+.test2 {
+    margin-right: 3.5%;
+}
+
+.test3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-right: 1.65%;
+}
+
+.filter-col2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-col {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}

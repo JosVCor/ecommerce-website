@@ -1,0 +1,19 @@
+.container-mens-top{
+    width: 75%;
+    margin-left: 13%;
+    margin-top: 5%;
+}
+
+.product-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container-mens-top > h1 {
+    font-size: 2.5rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    text-shadow: darkred 3px 3px 5px;
+}
